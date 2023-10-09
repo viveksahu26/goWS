@@ -1,8 +1,11 @@
-module github.com/goWs
+module github.com/goWs/semaphore_concurrency
 
 go 1.20
 
-require github.com/go-git/go-git/v5 v5.9.0
+require (
+	github.com/go-git/go-git/v5 v5.9.0
+	golang.org/x/sync v0.3.0
+)
 
 require (
 	dario.cat/mergo v1.0.0 // indirect
