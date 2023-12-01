@@ -24,7 +24,7 @@ func main() {
 		"https://github.com/viveksahu26/virtual_terminal",
 		"https://github.com/viveksahu26/testing_in_go",
 		"https://github.com/viveksahu26/url_shortner",
-		"https://github.com/kubernetes/kubernetes",
+		// "https://github.com/kubernetes/kubernetes",
 		"https://github.com/sigstore/cosign",
 		"https://github.com/viveksahu26/news-app",
 	}
@@ -47,7 +47,7 @@ func main() {
 			defer sem.Release(1)
 
 			fmt.Println("> RepoURL: ", url)
-			err := cloneRepo(url)
+			err := CloneRepo(url)
 			if err != nil {
 				fmt.Printf("Error cloning %s: %s\n", url, err)
 			} else {
@@ -69,7 +69,7 @@ func main() {
 	// Total time taken: 7m34.270479508s
 }
 
-func cloneRepo(url string) error {
+func CloneRepo(url string) error {
 	// Remove "https://github.com/" from the URL to get the repo path
 	repoPath := strings.TrimPrefix(url, "https://github.com/")
 	fmt.Println("RepoPath: ", repoPath)
