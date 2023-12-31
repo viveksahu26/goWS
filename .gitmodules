@@ -1,0 +1,3 @@
+[submodule "hi-cosign"]
+	path = hi-cosign
+	url = git@github.com:viveksahu26/hi-cosign.git

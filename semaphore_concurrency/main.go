@@ -24,9 +24,9 @@ func main() {
 		"https://github.com/viveksahu26/virtual_terminal",
 		"https://github.com/viveksahu26/testing_in_go",
 		"https://github.com/viveksahu26/url_shortner",
-		// "https://github.com/kubernetes/kubernetes",
+		"https://github.com/kubernetes/kubernetes",
 		"https://github.com/sigstore/cosign",
-		"https://github.com/viveksahu26/news-app",
+		//"https://github.com/viveksahu26/news-app",
 	}
 
 	startTime := time.Now()
