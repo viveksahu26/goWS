@@ -1,0 +1,449 @@
+SPDXVersion: SPDX-2.3
+DataLicense: CC0-1.0
+SPDXID: SPDXRef-DOCUMENT
+DocumentName: 42825/git@github.com:viveksahu26/goWS.git-f37ff023a3022b037951a2a2fbdffc853364c0de
+DocumentNamespace: https://s3.us-east-1.amazonaws.com/blob.fossa.io/FOSSA_BOMS/custom%2B42825%2Fgit%40github.com%3Aviveksahu26%2FgoWS.git%24f37ff023a3022b037951a2a2fbdffc853364c0de
+Creator: Organization: cnc
+Creator: Tool: FOSSA v0.12.0
+Created: 2024-02-06T11:17:05Z
+LicenseListVersion: 3.18
+DocumentDescribes: SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e
+DocumentDescribes: SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+DocumentDescribes: SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf
+DocumentDescribes: SPDXRef-git-github.com-mailru-easyjson-c120ca7ced6051261161ce15e8f1542a4b2567fc
+DocumentDescribes: SPDXRef-git-github.com-go-openapi-errors-4b8f099709072417dc0433e565b68cc9ec122e75
+DocumentDescribes: SPDXRef-go-go.mongodb.org-mongo-driver-v1.13.1
+DocumentDescribes: SPDXRef-git-github.com-asaskevich-govalidator-a9d515a09cc289c60d55064edec5ef189859f172
+DocumentDescribes: SPDXRef-git-github.com-josharian-intern-8e6ff32b3e7c0b018c43953085fe2ac330fe9acd
+DocumentDescribes: SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4
+DocumentDescribes: SPDXRef-git-github.com-go-openapi-jsonreference-23cc9ccbfd88d2589a00b1567f7fe61119c41375
+DocumentDescribes: SPDXRef-git-github.com-go-openapi-loads-676e3a8f3f9bb8e24997fb71222b301f83f7ceef
+DocumentDescribes: SPDXRef-git-github.com-mitchellh-mapstructure-ab69d8d93410fce4361f4912bb1ff88110a81311
+DocumentDescribes: SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377
+DocumentDescribes: SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047
+DocumentDescribes: SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876
+DocumentDescribes: SPDXRef-git-go.googlesource.com-sync-59c1ca1e4661ed4452be4069ceea3c233f4deec1
+DocumentDescribes: SPDXRef-git-github.com-oklog-ulid-02a8604050d8466dd915307496174adb9be4593a
+DocumentDescribes: SPDXRef-git-github.com-google-uuid-4d47f8eb066f43cfaedd728a543479d9c9dfa8f6
+DocumentDescribes: SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083
+DocumentDescribes: SPDXRef-git-gopkg.in-yaml.v3-f6f7691b1fdeb513f56608cd2c32c51f8194bf51
+
+#### Packages
+
+PackageName: git@github.com:viveksahu26/goWS.git
+SPDXID: SPDXRef-custom-42825-git-github.com-viveksahu26-goWS.git-f37ff023a3022b037951a2a2fbdffc853364c0de
+PackageVersion: f37ff023a3022b037951a2a2fbdffc853364c0de
+FilesAnalyzed: true
+PackageOriginator: Organization: Custom (provided build)
+PackageLicenseDeclared: NONE
+PackageCopyrightText: NONE
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+PackageChecksum: MD5: cfc1cc47ccc2650ab864dd5ad580a8f3
+PackageChecksum: SHA1: 28465c8a1b9573e2c13e0d007b5baa4458115d66
+PackageChecksum: SHA256: 11778b3ae35ea901f55408a4b46e0eac9f045fb0d6fce78df02bf189ae74fffe
+
+
+PackageName: rekor
+SPDXID: SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e
+PackageVersion: 488eb9782d8d95c83ac70bfb2f5049928504127e
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2021 The Sigstore Authors.
+	2015 go-swagger maintainers
+	2013 sigu-399 ( https://github.com/sigu-399
+PackageDownloadLocation: https://github.com/sigstore/rekor/archive/488eb9782d8d95c83ac70bfb2f5049928504127e.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/sigstore/rekor@488eb9782d8d95c83ac70bfb2f5049928504127e
+PackageChecksum: MD5: 32eb34eebea91ff029205b5ee7af4120
+PackageChecksum: SHA1: c9291a9aa8c2adee22c0e2d112fd045db239299e
+PackageChecksum: SHA256: e6220861194af31106947a90070bfd808b1d327580f6952a8913d65ae53e0c0d
+
+
+PackageName: strfmt
+SPDXID: SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+PackageVersion: 740a7c63f407292a8a26eb7440e20d7d7315d917
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2015 go-swagger maintainers
+PackageDownloadLocation: https://github.com/go-openapi/strfmt/archive/740a7c63f407292a8a26eb7440e20d7d7315d917.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/go-openapi/strfmt@740a7c63f407292a8a26eb7440e20d7d7315d917
+PackageChecksum: MD5: fe8a471d5ea0d9fb59b3bebf73a8f7f5
+PackageChecksum: SHA1: 4b1f3d63044383644431e1a98ae252d16076ac71
+PackageChecksum: SHA256: 0423603377c9b55731a0fafbe6cddea451acd8cebc7472fb0b191d246cb2c46a
+
+
+PackageName: analysis
+SPDXID: SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf
+PackageVersion: 6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2015 go-swagger maintainers
+PackageDownloadLocation: https://github.com/go-openapi/analysis/archive/6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/go-openapi/analysis@6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf
+PackageChecksum: MD5: d735dfb7a80b1bebe8f60162b25849f8
+PackageChecksum: SHA1: 41a480a9ffa18384944c1d74ae53513b5c5ce80f
+PackageChecksum: SHA256: 00626fa38e5763834b78e83e3d1c3e290f3edd41f39f91425db3eba9d06b5fa7
+
+
+PackageName: easyjson
+SPDXID: SPDXRef-git-github.com-mailru-easyjson-c120ca7ced6051261161ce15e8f1542a4b2567fc
+PackageVersion: c120ca7ced6051261161ce15e8f1542a4b2567fc
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 2016 Mail.Ru Group
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageDownloadLocation: https://github.com/mailru/easyjson/archive/c120ca7ced6051261161ce15e8f1542a4b2567fc.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/mailru/easyjson@c120ca7ced6051261161ce15e8f1542a4b2567fc
+PackageChecksum: MD5: 9c27379cb5f7aec04dd5e38209e10e52
+PackageChecksum: SHA1: 8a537d4be0de565a444d9618d63670dc699b0af5
+PackageChecksum: SHA256: 58350c241441cc8ccd0fda90f6f1511e07bb17e42465c332560ed2dd0383a880
+
+
+PackageName: errors
+SPDXID: SPDXRef-git-github.com-go-openapi-errors-4b8f099709072417dc0433e565b68cc9ec122e75
+PackageVersion: 4b8f099709072417dc0433e565b68cc9ec122e75
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2015 go-swagger maintainers
+PackageDownloadLocation: https://github.com/go-openapi/errors/archive/4b8f099709072417dc0433e565b68cc9ec122e75.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/go-openapi/errors@4b8f099709072417dc0433e565b68cc9ec122e75
+PackageChecksum: MD5: 9015bea23eac3e84a744eff1c5442edb
+PackageChecksum: SHA1: 0eea21ffe44bab782c72bf79c7f3fa79083df401
+PackageChecksum: SHA256: 1110a7200224708fd05065f7b9f0d321a68d5de1bbd11b2dc1706580b60d18b9
+
+
+PackageName: go.mongodb.org/mongo-driver
+SPDXID: SPDXRef-go-go.mongodb.org-mongo-driver-v1.13.1
+PackageVersion: v1.13.1
+FilesAnalyzed: true
+PackageOriginator: Organization: Golang
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+	yyyy] [name of copyright owner]
+PackageLicenseInfoFromFiles: MIT ISC BSD-2-Clause BSD-3-Clause proprietary-license
+PackageDownloadLocation: NOASSERTION
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:golang/go.mongodb.org/mongo-driver@v1.13.1
+PackageChecksum: MD5: 5631f59832c0bbadb17f34895266ca49
+PackageChecksum: SHA1: db92f1e453dbab4bee6e9312d739198941fbb985
+PackageChecksum: SHA256: 8d607d5cc6b7af3db1f723644c660f98e6903b8b46a5d620a37ad1969700c59b
+
+
+PackageName: govalidator
+SPDXID: SPDXRef-git-github.com-asaskevich-govalidator-a9d515a09cc289c60d55064edec5ef189859f172
+PackageVersion: a9d515a09cc289c60d55064edec5ef189859f172
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 2014-2020 Alex Saskevich
+PackageLicenseInfoFromFiles: Apache-2.0
+PackageDownloadLocation: https://github.com/asaskevich/govalidator/archive/a9d515a09cc289c60d55064edec5ef189859f172.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/asaskevich/govalidator@a9d515a09cc289c60d55064edec5ef189859f172
+PackageChecksum: MD5: 9fc65ea8a12fe01bd238f26389535e22
+PackageChecksum: SHA1: e9d7e221d4d0cc48e63ab49df3cc57bb8c035cb5
+PackageChecksum: SHA256: ad018469894f6ba6d2fe8ea3aef3b5545720cffc51048dd9ae339c48c23de836
+
+
+PackageName: intern
+SPDXID: SPDXRef-git-github.com-josharian-intern-8e6ff32b3e7c0b018c43953085fe2ac330fe9acd
+PackageVersion: 8e6ff32b3e7c0b018c43953085fe2ac330fe9acd
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 2019 Josh Bleecher Snyder
+PackageDownloadLocation: https://github.com/josharian/intern/archive/8e6ff32b3e7c0b018c43953085fe2ac330fe9acd.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/josharian/intern@8e6ff32b3e7c0b018c43953085fe2ac330fe9acd
+PackageChecksum: MD5: fcb19ab02b14539c967ea9d2f93162e2
+PackageChecksum: SHA1: 72a262bc3f28ca00475c987cd98cc73f27228f66
+PackageChecksum: SHA256: 4cf1a39fd58759a350993d2b7c12bbaddce5b54a762c0a78669edf73148a7edc
+
+
+PackageName: jsonpointer
+SPDXID: SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4
+PackageVersion: 344388f5b9184a55dea9d36cf96742b69dddeac4
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2013 sigu-399 ( https://github.com/sigu-399
+PackageDownloadLocation: https://github.com/go-openapi/jsonpointer/archive/344388f5b9184a55dea9d36cf96742b69dddeac4.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/go-openapi/jsonpointer@344388f5b9184a55dea9d36cf96742b69dddeac4
+PackageChecksum: MD5: ea47ad0fd84358ca11fc9153966733da
+PackageChecksum: SHA1: aef872531e70a6e1324a50fc0945c0c50572a510
+PackageChecksum: SHA256: ef2f6a1642716a17518d1eee203c5e70a906bbfa21c2d73faa5ecdaebfd617b0
+
+
+PackageName: jsonreference
+SPDXID: SPDXRef-git-github.com-go-openapi-jsonreference-23cc9ccbfd88d2589a00b1567f7fe61119c41375
+PackageVersion: 23cc9ccbfd88d2589a00b1567f7fe61119c41375
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2013 sigu-399 ( https://github.com/sigu-399
+PackageDownloadLocation: https://github.com/go-openapi/jsonreference/archive/23cc9ccbfd88d2589a00b1567f7fe61119c41375.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/go-openapi/jsonreference@23cc9ccbfd88d2589a00b1567f7fe61119c41375
+PackageChecksum: MD5: 9477be9e496cf328f666190c91847c83
+PackageChecksum: SHA1: a21be56178065d42761769e769993e603995ea9e
+PackageChecksum: SHA256: fc5fad5a69da8a40b1c3c74b127bf6a859e450a5aa1a856d78e4ff26569d0803
+
+
+PackageName: loads
+SPDXID: SPDXRef-git-github.com-go-openapi-loads-676e3a8f3f9bb8e24997fb71222b301f83f7ceef
+PackageVersion: 676e3a8f3f9bb8e24997fb71222b301f83f7ceef
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2015 go-swagger maintainers
+PackageDownloadLocation: https://github.com/go-openapi/loads/archive/676e3a8f3f9bb8e24997fb71222b301f83f7ceef.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/go-openapi/loads@676e3a8f3f9bb8e24997fb71222b301f83f7ceef
+PackageChecksum: MD5: 872699481f4d78a2f1ae257e8c5f80e0
+PackageChecksum: SHA1: a9905bb3ab9b2ab63bcc256b126e58311337e8ca
+PackageChecksum: SHA256: 1a85d73bed52e65c3c53012611144977d7b5b3fe7593036e58ef964a531b4fc6
+
+
+PackageName: mapstructure
+SPDXID: SPDXRef-git-github.com-mitchellh-mapstructure-ab69d8d93410fce4361f4912bb1ff88110a81311
+PackageVersion: ab69d8d93410fce4361f4912bb1ff88110a81311
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: MIT
+PackageCopyrightText: 2013 Mitchell Hashimoto
+PackageDownloadLocation: https://github.com/mitchellh/mapstructure/archive/ab69d8d93410fce4361f4912bb1ff88110a81311.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/mitchellh/mapstructure@ab69d8d93410fce4361f4912bb1ff88110a81311
+PackageChecksum: MD5: 9549b44cbe8affce285c35eb39ae5542
+PackageChecksum: SHA1: 471362709661c6deb7c07b92d9bce5d99aae8eb2
+PackageChecksum: SHA256: 277f1796e03a0af5751371f9ae4307ecac4f3b2f170ffc7df0a1684a4b1d84fd
+
+
+PackageName: runtime
+SPDXID: SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377
+PackageVersion: 50a16d3f8f0134f218876a656581a41b0f7f0377
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2015 go-swagger maintainers
+PackageLicenseInfoFromFiles: BSD-3-Clause MIT
+PackageDownloadLocation: https://github.com/go-openapi/runtime/archive/50a16d3f8f0134f218876a656581a41b0f7f0377.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/go-openapi/runtime@50a16d3f8f0134f218876a656581a41b0f7f0377
+PackageChecksum: MD5: bc7c70ef004b3e403252b0e5429bd236
+PackageChecksum: SHA1: e427eadb3b782592800b73c47b78343567f84c3f
+PackageChecksum: SHA256: 766b0196b3f6286e0747a6cc3fba933540b3a5064845ce707ace8b7cf7ccc753
+
+
+PackageName: spec
+SPDXID: SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047
+PackageVersion: ed00e7169ddfe4d5d2d6c668d81f54867bc24047
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2015 go-swagger maintainers
+PackageDownloadLocation: https://github.com/go-openapi/spec/archive/ed00e7169ddfe4d5d2d6c668d81f54867bc24047.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/go-openapi/spec@ed00e7169ddfe4d5d2d6c668d81f54867bc24047
+PackageChecksum: MD5: e7d7c1c38bf54fae99a357212059aaf4
+PackageChecksum: SHA1: e0d25f3b03e27b5fb5e02ec1ab0e25ce285c6071
+PackageChecksum: SHA256: f6e40a9039e9e79cf970b4646effb2b80f4669df7d336d17d6157f23d3d35368
+
+
+PackageName: swag
+SPDXID: SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876
+PackageVersion: a05020e2eba35111df9afd1d3186792050a6a876
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2015 go-swagger maintainers
+PackageDownloadLocation: https://github.com/go-openapi/swag/archive/a05020e2eba35111df9afd1d3186792050a6a876.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/go-openapi/swag@a05020e2eba35111df9afd1d3186792050a6a876
+PackageChecksum: MD5: 99a2cb66e8b83a294467c0a6c67bcaca
+PackageChecksum: SHA1: d48408ee10a1bfd8a38b92bac7f585870b89b1f2
+PackageChecksum: SHA256: 145cedccfedb05bcce8da6d28e8eeecfa9117fcdb8f8cf3cd352d52e70424c8b
+
+
+PackageName: sync
+SPDXID: SPDXRef-git-go.googlesource.com-sync-59c1ca1e4661ed4452be4069ceea3c233f4deec1
+PackageVersion: 59c1ca1e4661ed4452be4069ceea3c233f4deec1
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: BSD-3-Clause
+PackageCopyrightText: 2009 The Go Authors. All rights reserved.
+PackageDownloadLocation: https://go.googlesource.com/sync
+PackageLicenseConcluded: NOASSERTION
+PackageChecksum: MD5: 92e956376dedce75d6d0b13a89dd7a9f
+PackageChecksum: SHA1: ff443447a872774b50ec7fdf89959b3668045d2a
+PackageChecksum: SHA256: b4bbd8efd9ca52f7beac8bb947442902dc32d5b01994097620c55cd254ac12cd
+
+
+PackageName: ulid
+SPDXID: SPDXRef-git-github.com-oklog-ulid-02a8604050d8466dd915307496174adb9be4593a
+PackageVersion: 02a8604050d8466dd915307496174adb9be4593a
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText:  yyyy] [name of copyright owner]
+	 owner]
+PackageLicenseInfoFromFiles: BSD-3-Clause
+PackageDownloadLocation: https://github.com/oklog/ulid/archive/02a8604050d8466dd915307496174adb9be4593a.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/oklog/ulid@02a8604050d8466dd915307496174adb9be4593a
+PackageChecksum: MD5: 399ae1a12e731a14e10687ff045a2296
+PackageChecksum: SHA1: 229c24957a3e2e92ff8041a410f1fab566814c87
+PackageChecksum: SHA256: baba7e42b7b906e535316fb537b59f72127826e2ed3cf2dae7f3887f3ca16087
+
+
+PackageName: uuid
+SPDXID: SPDXRef-git-github.com-google-uuid-4d47f8eb066f43cfaedd728a543479d9c9dfa8f6
+PackageVersion: 4d47f8eb066f43cfaedd728a543479d9c9dfa8f6
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: BSD-3-Clause
+PackageCopyrightText: 2009,2014 Google Inc. All rights reserved.
+PackageDownloadLocation: https://github.com/google/uuid/archive/4d47f8eb066f43cfaedd728a543479d9c9dfa8f6.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/google/uuid@4d47f8eb066f43cfaedd728a543479d9c9dfa8f6
+PackageChecksum: MD5: dd0aa796dc4cc9bf98d9e113eab2ba10
+PackageChecksum: SHA1: fe5f6ebe4b25aa34b87d2c0694d8d5854bb7ca6f
+PackageChecksum: SHA256: cbdf194142d74e7e6e4de1d4ee3ce91729976747ea591d3e933e1bb8a334a084
+
+
+PackageName: validate
+SPDXID: SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083
+PackageVersion: ff196e543f44d8832473ba67e22f2dc88f00e083
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0
+PackageCopyrightText: 2015 go-swagger maintainers
+PackageDownloadLocation: https://github.com/go-openapi/validate/archive/ff196e543f44d8832473ba67e22f2dc88f00e083.zip
+PackageLicenseConcluded: NOASSERTION
+ExternalRef: PACKAGE-MANAGER purl pkg:github/go-openapi/validate@ff196e543f44d8832473ba67e22f2dc88f00e083
+PackageChecksum: MD5: a478450780bd026aa1aad1ed65bfadd4
+PackageChecksum: SHA1: c14b5de2f60e8c385a3d911bdfaed089f227453a
+PackageChecksum: SHA256: 033db29dd90e0e6e5ace7e136e41644fece3a9c710d837cfbaed18fc8a0e040f
+
+
+PackageName: yaml.v3
+SPDXID: SPDXRef-git-gopkg.in-yaml.v3-f6f7691b1fdeb513f56608cd2c32c51f8194bf51
+PackageVersion: f6f7691b1fdeb513f56608cd2c32c51f8194bf51
+FilesAnalyzed: true
+PackageOriginator: Organization: Git
+PackageLicenseDeclared: Apache-2.0 OR MIT
+PackageCopyrightText: staring in 2011 when the project was ported over:
+	 staring in 2011 when the project was ported over:
+	2006-2010 Kirill Simonov
+	2006-2011 Kirill Simonov
+	2011-2019 Canonical Ltd
+PackageDownloadLocation: https://gopkg.in/yaml.v3
+PackageLicenseConcluded: NOASSERTION
+PackageChecksum: MD5: 56615fec79f830eb5dec58aace7c5a10
+PackageChecksum: SHA1: f9f7897922412e4a479e361f1173877370d4cef7
+PackageChecksum: SHA256: 210177e62246f20e1bc92c9751dfbcf10efac6c60fb811b2bc9a9e05d8a0ff68
+
+
+
+#### Relationships
+
+SPDXRef-DOCUMENT DESCRIBES SPDXRef-custom-42825-git-github.com-viveksahu26-goWS.git-f37ff023a3022b037951a2a2fbdffc853364c0de
+SPDXRef-custom-42825-git-github.com-viveksahu26-goWS.git-f37ff023a3022b037951a2a2fbdffc853364c0de DEPENDS_ON SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e
+SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e DEPENDENCY_OF SPDXRef-custom-42825-git-github.com-viveksahu26-goWS.git-f37ff023a3022b037951a2a2fbdffc853364c0de
+SPDXRef-custom-42825-git-github.com-viveksahu26-goWS.git-f37ff023a3022b037951a2a2fbdffc853364c0de DEPENDS_ON SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917 DEPENDENCY_OF SPDXRef-custom-42825-git-github.com-viveksahu26-goWS.git-f37ff023a3022b037951a2a2fbdffc853364c0de
+SPDXRef-custom-42825-git-github.com-viveksahu26-goWS.git-f37ff023a3022b037951a2a2fbdffc853364c0de DEPENDS_ON SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083
+SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083 DEPENDENCY_OF SPDXRef-custom-42825-git-github.com-viveksahu26-goWS.git-f37ff023a3022b037951a2a2fbdffc853364c0de
+SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e DEPENDS_ON SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917 DEPENDENCY_OF SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e
+SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e DEPENDS_ON SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083
+SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083 DEPENDENCY_OF SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e
+SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e DEPENDS_ON SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377
+SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377 DEPENDENCY_OF SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e
+SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e DEPENDS_ON SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876
+SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876 DEPENDENCY_OF SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e
+SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e DEPENDS_ON SPDXRef-git-github.com-go-openapi-errors-4b8f099709072417dc0433e565b68cc9ec122e75
+SPDXRef-git-github.com-go-openapi-errors-4b8f099709072417dc0433e565b68cc9ec122e75 DEPENDENCY_OF SPDXRef-git-github.com-sigstore-rekor-488eb9782d8d95c83ac70bfb2f5049928504127e
+SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083 DEPENDS_ON SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083
+SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083 DEPENDS_ON SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf
+SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083
+SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083 DEPENDS_ON SPDXRef-git-github.com-go-openapi-loads-676e3a8f3f9bb8e24997fb71222b301f83f7ceef
+SPDXRef-git-github.com-go-openapi-loads-676e3a8f3f9bb8e24997fb71222b301f83f7ceef DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083
+SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083 DEPENDS_ON SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876
+SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083
+SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083 DEPENDS_ON SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047
+SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083
+SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083 DEPENDS_ON SPDXRef-git-github.com-go-openapi-errors-4b8f099709072417dc0433e565b68cc9ec122e75
+SPDXRef-git-github.com-go-openapi-errors-4b8f099709072417dc0433e565b68cc9ec122e75 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083
+SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083 DEPENDS_ON SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4
+SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-validate-ff196e543f44d8832473ba67e22f2dc88f00e083
+SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377 DEPENDS_ON SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377
+SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377 DEPENDS_ON SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876
+SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377
+SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377 DEPENDS_ON SPDXRef-git-github.com-go-openapi-errors-4b8f099709072417dc0433e565b68cc9ec122e75
+SPDXRef-git-github.com-go-openapi-errors-4b8f099709072417dc0433e565b68cc9ec122e75 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377
+SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377 DEPENDS_ON SPDXRef-git-go.googlesource.com-sync-59c1ca1e4661ed4452be4069ceea3c233f4deec1
+SPDXRef-git-go.googlesource.com-sync-59c1ca1e4661ed4452be4069ceea3c233f4deec1 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-runtime-50a16d3f8f0134f218876a656581a41b0f7f0377
+SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf DEPENDS_ON SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf
+SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf DEPENDS_ON SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047
+SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf
+SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf DEPENDS_ON SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4
+SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf
+SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf DEPENDS_ON SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876
+SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf
+SPDXRef-git-github.com-go-openapi-loads-676e3a8f3f9bb8e24997fb71222b301f83f7ceef DEPENDS_ON SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf
+SPDXRef-git-github.com-go-openapi-analysis-6064bf596ede1867a16dc8ac6c1d4c568a1bf5bf DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-loads-676e3a8f3f9bb8e24997fb71222b301f83f7ceef
+SPDXRef-git-github.com-go-openapi-loads-676e3a8f3f9bb8e24997fb71222b301f83f7ceef DEPENDS_ON SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047
+SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-loads-676e3a8f3f9bb8e24997fb71222b301f83f7ceef
+SPDXRef-git-github.com-go-openapi-loads-676e3a8f3f9bb8e24997fb71222b301f83f7ceef DEPENDS_ON SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876
+SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-loads-676e3a8f3f9bb8e24997fb71222b301f83f7ceef
+SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876 DEPENDS_ON SPDXRef-git-github.com-mailru-easyjson-c120ca7ced6051261161ce15e8f1542a4b2567fc
+SPDXRef-git-github.com-mailru-easyjson-c120ca7ced6051261161ce15e8f1542a4b2567fc DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876
+SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876 DEPENDS_ON SPDXRef-git-gopkg.in-yaml.v3-f6f7691b1fdeb513f56608cd2c32c51f8194bf51
+SPDXRef-git-gopkg.in-yaml.v3-f6f7691b1fdeb513f56608cd2c32c51f8194bf51 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876
+SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047 DEPENDS_ON SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876
+SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047
+SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047 DEPENDS_ON SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4
+SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047
+SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047 DEPENDS_ON SPDXRef-git-github.com-go-openapi-jsonreference-23cc9ccbfd88d2589a00b1567f7fe61119c41375
+SPDXRef-git-github.com-go-openapi-jsonreference-23cc9ccbfd88d2589a00b1567f7fe61119c41375 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-spec-ed00e7169ddfe4d5d2d6c668d81f54867bc24047
+SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4 DEPENDS_ON SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876
+SPDXRef-git-github.com-go-openapi-swag-a05020e2eba35111df9afd1d3186792050a6a876 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4
+SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917 DEPENDS_ON SPDXRef-git-github.com-go-openapi-errors-4b8f099709072417dc0433e565b68cc9ec122e75
+SPDXRef-git-github.com-go-openapi-errors-4b8f099709072417dc0433e565b68cc9ec122e75 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917 DEPENDS_ON SPDXRef-go-go.mongodb.org-mongo-driver-v1.13.1
+SPDXRef-go-go.mongodb.org-mongo-driver-v1.13.1 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917 DEPENDS_ON SPDXRef-git-github.com-asaskevich-govalidator-a9d515a09cc289c60d55064edec5ef189859f172
+SPDXRef-git-github.com-asaskevich-govalidator-a9d515a09cc289c60d55064edec5ef189859f172 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917 DEPENDS_ON SPDXRef-git-github.com-mitchellh-mapstructure-ab69d8d93410fce4361f4912bb1ff88110a81311
+SPDXRef-git-github.com-mitchellh-mapstructure-ab69d8d93410fce4361f4912bb1ff88110a81311 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917 DEPENDS_ON SPDXRef-git-github.com-oklog-ulid-02a8604050d8466dd915307496174adb9be4593a
+SPDXRef-git-github.com-oklog-ulid-02a8604050d8466dd915307496174adb9be4593a DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917 DEPENDS_ON SPDXRef-git-github.com-google-uuid-4d47f8eb066f43cfaedd728a543479d9c9dfa8f6
+SPDXRef-git-github.com-google-uuid-4d47f8eb066f43cfaedd728a543479d9c9dfa8f6 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-strfmt-740a7c63f407292a8a26eb7440e20d7d7315d917
+SPDXRef-git-github.com-mailru-easyjson-c120ca7ced6051261161ce15e8f1542a4b2567fc DEPENDS_ON SPDXRef-git-github.com-josharian-intern-8e6ff32b3e7c0b018c43953085fe2ac330fe9acd
+SPDXRef-git-github.com-josharian-intern-8e6ff32b3e7c0b018c43953085fe2ac330fe9acd DEPENDENCY_OF SPDXRef-git-github.com-mailru-easyjson-c120ca7ced6051261161ce15e8f1542a4b2567fc
+SPDXRef-git-github.com-go-openapi-jsonreference-23cc9ccbfd88d2589a00b1567f7fe61119c41375 DEPENDS_ON SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4
+SPDXRef-git-github.com-go-openapi-jsonpointer-344388f5b9184a55dea9d36cf96742b69dddeac4 DEPENDENCY_OF SPDXRef-git-github.com-go-openapi-jsonreference-23cc9ccbfd88d2589a00b1567f7fe61119c41375
+
+
+
+<!--FOSSA: Do not touch content below. -->
+
+<!--FOSSA: ==depsig=115897fbe9e65b2809b4d34432d5fb03ff0db817214faba8b0510be733320792== -->
+
+
